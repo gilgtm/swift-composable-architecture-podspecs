@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
   spec.name         = "CasePaths"
   spec.version      = "0.10.1"
   spec.summary      = "Case paths bring the power and ergonomics of key paths to enums!"
-  spec.homepage     = "https://github.com/pointfreeco/swift-custom-dump"
+  spec.homepage     = "https://github.com/pointfreeco/swift-case-paths"
   spec.author       = { "Zsolt Kovacs" => "blog@ismoth.com" }
   spec.license      = { type: 'MIT', file: 'LICENSE' }
   spec.swift_versions = "5.6"

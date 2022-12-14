@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/pointfreeco/swift-composable-architecture.git", :tag => "#{spec.version}" }
   spec.source_files = "Sources/Dependencies/**/*.swift"
-  spec.dependency "CombineSchedulers"
-  spec.dependency "XCTestDynamicOverlay"
-  spec.dependency "Clocks"
+  spec.dependency "CombineSchedulers", "0.9.1"
+  spec.dependency "XCTestDynamicOverlay", "0.6.0"
+  spec.dependency "Clocks", "0.2.0"
 end

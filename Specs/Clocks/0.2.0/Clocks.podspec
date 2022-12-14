@@ -16,5 +16,5 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/pointfreeco/swift-clocks.git", :tag => "#{spec.version}" }
   spec.source_files = "Sources/Clocks/**/*.swift"
-  spec.dependency "XCTestDynamicOverlay"
+  spec.dependency "XCTestDynamicOverlay", "0.6.0"
 end
